@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas em telas pequenas</title>
-    <style>
+    <title>Site de Teste</title>
+<style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
         }
 
         table{
@@ -29,9 +30,8 @@
             background-color: lightgray;
         }
 
-        div#container {
-            overflow-x: auto;
-            
+        tr:nth-child(odd) {
+            background-color: white;
         }
     </style>
 </head>
@@ -40,7 +40,7 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolor porro inventore labore reiciendis odio minus, quo saepe illo sequi quia ipsa earum voluptates eius dolores quaerat sint commodi sapiente!</p>
     <div id="container">
         <table>
-            <caption>Vendas de produtos no mês</caption>
+            <caption>Vendas de produtos por mês</caption>
             <thead>
                 <tr>
                     <th>Produto</th>
